@@ -1,0 +1,25 @@
+{
+  "name": "three-stats",
+  "description": "three.js stats component",
+  "version": "0.1.0",
+  "maintainers": [ 
+    {
+      "name": "Enrico Marino",
+      "email": "enrico.marino@email.com"
+    },
+    {
+      "name": "Federico Spini",
+      "email": "federico.spini@gmail.com"
+    }
+  ],
+  "homepage": "https://github.com/cvdlab/three-stats",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/cvdlab/three-stats.git"
+  },
+  "main": "index.js",
+  "engines": {
+    "node": "*"
+  },
+  "devDependencies": {}
+}
