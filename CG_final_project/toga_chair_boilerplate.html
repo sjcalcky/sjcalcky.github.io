@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Toga Chair by Stefano Calcaterra</title>
+<link rel="stylesheet" href="build/build.css">
+<script src="build/build.js"></script>
+<script src="jquery-1.10.1.js"></script>
+
+  
+</head>
+<body>
+
+  <section>
+    <div id="plasm"></div>
+  </section>
+ 
+  <script>
+    var PLASM = require('cvdlab-plasm-fun');
+    PLASM('plasm').globalize();
+  </script>
+  <script>
+$(document).ready(function(){
+
+  $.getScript("code/toga_chair.js", function(data, textStatus, jqxhr) {
+   console.log(data); //data returned
+   console.log(textStatus); //success
+   console.log(jqxhr.status); //200
+   console.log('Load was performed.');
+});
+
+  });
+</script>
+</body>
+</html>
