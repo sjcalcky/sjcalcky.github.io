@@ -9,9 +9,19 @@
     <link rel="stylesheet" type="text/css" href="../stylesheets/pygment_trac.css" media="screen" />
     <link rel="stylesheet" type="text/css" href="../stylesheets/print.css" media="print" />
 
+    <script src="../jquery-1.10.1.js"></script>
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
+    <script>
+    $(document).ready(function() {
+    
+    $.get('alfa_lamp.js', function(data) {
+      $("#container").html(data);
+    }, 'text');
+    
+    });
+    </script>
 
     <title>Computational Graphics Final Project by sjcalcky</title>
   </head>
@@ -31,13 +41,22 @@
 
           <h3><span class="octicon octicon-link"></span>Alfa Lamp - Code</h3>
 
-            <p></p>
-
-
+            <p>lallo</p>
 
         <pre><code>
-            <script type="text/JavaScript" src="alfa_lamp.js"></script>
+
+            <div id="container"></div>
         </code></pre>
+        <script>
+        /*
+        var str = $("p:first").text();
+       // $("p:last").html(str);
+        $.get("alfa_lamp.js", function(data) {
+                
+            $("p:last").html(data);
+        });
+            */
+        </script>
 
 
 
