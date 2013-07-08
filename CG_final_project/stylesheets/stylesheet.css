@@ -32,6 +32,7 @@ body {
 }
 ol, ul {
 	list-style: none;
+  font-size: 14 px;
 }
 blockquote, q {
 	quotes: none;
@@ -87,6 +88,7 @@ header h2 {
   line-height: 1.3;
   width: 540px;
   letter-spacing: 0;
+  font-family: 'Helvetica Neue', Helvetica, Arial, serif; 
 }
 
 .inner {
@@ -136,7 +138,7 @@ a.button {
   color: #fff;
   padding-left: 68px;
   padding-top: 22px;
-  font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif; 
+  font-family: 'Helvetica Neue', Helvetica, Arial, serif; 
 }
 a.button small {
   display: block;
@@ -253,7 +255,7 @@ form {
 }
 
 #main-content h3 {
-  font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif; 
+  font-family: 'Helvetica Neue', Helvetica, Arial, serif; 
   font-size: 18px;
   font-weight: bold;
   margin-top: 24px;
