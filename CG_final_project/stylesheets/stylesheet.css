@@ -151,6 +151,18 @@ header a.button {
   top: 0;
   background: transparent url(../images/github-button.png) 0 0 no-repeat;
 }
+
+#download_zip {
+	margin-top:100px;
+  background: transparent url(../images/download-button-zip.png) 0 0 no-repeat;
+}
+#download_tar_gz {
+	margin-top:200px;
+  background: transparent url(../images/download-button-tar.png) 0 0 no-repeat;
+}
+
+
+
 aside a.button {
   width: 138px;
   padding-left: 64px;
