@@ -33,9 +33,40 @@
         <section id="main-content">
 
           <h3><span class="octicon octicon-link"></span>Launch Table Noguchi</h3>
-
-            <p></p>
-
+			<br/>
+            
+             <p>The Lunch Table, designed by Isamu Noguchi, is a table with iron black base and crhome plated steel wired frame. <br/>
+             This table is one of the most famous creations of the '60s. This piece of modern art is characterized by a sculptural structure, made of multiple strands V-shaped, which make up the solid base that supports the elegant wooden top. The Giappo-American designer said that "everything is a sculpture" and followed this principle in achieving its work, so even for this masterpiece.
+             </p>
+             
+             <div style="text-align:center">
+ 				<img src="images/lunch_table_noguchi.jpg">         
+             </div>
+             <br/>
+             
+             <p>The model of the table is composed by three parts: <br/>
+             <ul style="font-weight:bold;">
+				<li>Surface</li>
+				<li>Wired body</li>
+                <li>Base</li>
+			</ul>
+            The surface was created using the function "arc" that, given three variables (angle, inner radius and outer radius), produces a circular surface that was subsequently extruded. <br/>
+            For the modeling of the body of the table has been created a cylinder (very narrow and long) subsequently split with a distance between the two pieces of 30 °. This structure was then tilted on the y-z plane of 15 ° and multiplied seven times, in order to obtain the net that forms the structure that supports the table surface.
+	      </p>
+             
+             <div style="text-align:center">
+ 				<a href="https://raw.github.com/cvdlab-cg/405769/master/final-project/tavolino%20da%20pranzo%20Noguchi.py">
+                <img src="images/lunch_table_noguchi_py.jpg">        
+                </a>    
+             </div>
+             <br/>
+             
+             <p>The base has been shaped by drawing several Bezier curves later interpolated through the function "PROFILEPROD_SURFACE". In particular tree curves were drawn into the xz plane that together represent the vertical section of the base. These three functions were then each interpolated with the curve drawn on the xy plane. The union of the three surfaces derived form the base of the table.
+             </p>
+             
+              <br/>
+              <p>Below is shown the result of the molded parts.
+              </p>
 
       <div style="text-align:center">
 
@@ -43,8 +74,9 @@
       <iframe src="lunch_table_noguchi_boilerplate.html" class="iframe" height="550" scrolling="auto" width="650"></iframe>
       <br/>
       -->
-      <img src="images/lunch_table_noguchi_py.jpg">
-      <img src="images/lunch_table_noguchi_js.jpg">
+      <a href="https://raw.github.com/cvdlab-cg/405769/master/final-project/tavolino%20da%20pranzo%20Noguchi.js">
+       <img src="images/lunch_table_noguchi_js.jpg">
+       </a>
 
       <a href="code/lunch_table_noguchi_code.html">Show Code</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
       <a href="lunch_table_noguchi_boilerplate.html" target="_blank">Show Model</a>
