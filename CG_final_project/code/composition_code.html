@@ -17,7 +17,8 @@
     $(document).ready(function() {
     
     $.get('composition.js', function(data) {
-      $("#container").html(data);
+		 var testo = data.replace("<", "&#60;");
+      $("#container").html(testo);
     }, 'text');
     
     });
