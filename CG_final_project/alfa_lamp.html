@@ -35,14 +35,22 @@
           <h3><span class="octicon octicon-link"></span>Alfa Lamp</h3>
 			<br/>
             
-            <p></p>
+            <p>Alpha is the first table lamp of the series Artemide designed in 1959 by Sergio Mazza. The metal nickel structure holds a bell-shaped crystal of 30 cm in diameter, while the base, black marble, has a diameter of 14 cm.
+            </p>
             
             <div style="text-align:center">
             <img src="images/alfa_lamp.jpg">
             </div>
             <br/>
             
-            <p></p>
+            <p>The model of the table is composed by three parts: <br/>
+             <ul style="font-weight:bold;">
+				<li>Base</li>
+                <li>Body structure</li>
+                <li>Crystal</li>
+			</ul>
+            The base of the lamp was modeled through the union of different surfaces generated, starting from two Bezier curves for each surface, the function "PROFILEPROD_SURFACE". For the body of the lamp was used the "arc", thus generating six-cylinder with different height and diameter, properly positioned and shifted the Z axis. To generate the sphere concludes that the casing of the lamp was created the "sphere", written from the structure of the "arc". Once generated the ball of the right diameter, was translated in the Z axis. Finally, the crystal was modeled in a similar way of the base: have been appropriately draw two Bezier curves and interpolated by using the "PROFILEPROD_SURFACE". To make the idea of the light inside, the lamp's crystal has been colored with a value greater than 1.
+            </p>
             
             <div style="text-align:center">
             <a href="https://raw.github.com/cvdlab-cg/405769/master/final-project/alfa_lamp.py">
@@ -51,7 +59,8 @@
             </div>
             <br/>
             
-            <p></p>
+            <p>Below is shown the result (in Plasm.js) of the modeled parts.
+            </p>
 
 
       <div style="text-align:center">

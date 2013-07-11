@@ -35,14 +35,21 @@
           <h3><span class="octicon octicon-link"></span>Toga Chair</h3>
 			<br/>
             
-            <p></p>
+            <p>The Toga chair was designed by Sergio Toga in 1964. The chair consists of a single piece of modeled fiberglass.
+            </p>
             
             <div style="text-align:center">
             <img src="images/toga_chair.jpg">
         </div>
         <br/>
         
-        <p></p>
+        <p>As the original chair, model Toga consists of a single part. Through the aid of curves used as reference measures and proportions, were designed eight Bezier curves in the most significant points. Through interpolation of these curves was generated the only surface that constitutes the model. Note how to make most significant the values ​​of a curve, this is repeated several times when is performed the interpolation with the others.
+        </p>
+        <pre><code>
+            <p>var surf = MAP(BEZIER(S1)([c1, c2,c2,c2, c3, c4,c4,c4,c4,c4,c4,c4, c5,c5,c5, c6,c6,c6,c6,c6,c6, c7,c7,c7, c8]))(dom1);
+            </p>
+        </code></pre>
+        
 
 		<div style="text-align:center">
         <a href="https://raw.github.com/cvdlab-cg/405769/master/final-project/toga_chair.py">
@@ -51,7 +58,8 @@
         </div>
         <br/>
         
-        <p></p>
+        <p>Below is shown the result (in Plasm.js) of the modeled parts.
+        </p>
 
       <div style="text-align:center">
 
